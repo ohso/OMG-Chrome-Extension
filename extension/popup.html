@@ -1,0 +1,27 @@
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<!-- SPDX-FileCopyrightText: Copyright (c) 2024 Sam Tran -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>OMG! Extension</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="popup">
+<div>
+  <header>
+    <a type="button" class="logo db" title="Visit OMG! Ubuntu!">
+      <img class="db" src="images/logo.svg" height="48" width="48"/>
+    </a>
+    <button type="button" id="refresh" class="link refresh">
+      <img class="db" src="images/refresh.svg" alt="Refresh" width="24" height="24">
+    </button>
+  </header>
+  <section class="articles"></section>
+  <footer>
+    <button type="button" id="read-all" class="link read-all">Mark All As Read</button>
+  </footer>
+</div>
+<script type="module" src="pages/popup.js"></script>
+</body>
+</html>

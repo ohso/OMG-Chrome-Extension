@@ -1,0 +1,234 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`articles fetchArticles should fetch and store all articles on first run 1`] = `
+[
+  [
+    {
+      "articles": [
+        {
+          "date": "2024-06-03T22:03:20",
+          "id": 283465,
+          "link": "https://www.omgubuntu.co.uk/2024/06/linux-mint-will-hide-unverified-flatpaks",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/02/linux-mint-22-tile-350x200.jpg",
+          "title": "Linux Mint Will Hide Unverified Flatpaks in Software Manager",
+          "unread": true,
+        },
+        {
+          "date": "2024-06-02T18:00:00",
+          "id": 283423,
+          "link": "https://www.omgubuntu.co.uk/2024/06/convert-text-documents-easily-ubuntu",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/06/document-conversion-350x200.jpg",
+          "title": "New App Makes Converting Text Documents on Ubuntu Easier",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-30T21:22:00",
+          "id": 283383,
+          "link": "https://www.omgubuntu.co.uk/2024/05/wsl-gui-settings-apps-coming-soon",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/windows-tux-thumbnail-350x200.jpg",
+          "title": "Microsoft Announce WSL Updates, Including New Settings App",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-29T22:20:00",
+          "id": 283328,
+          "link": "https://www.omgubuntu.co.uk/2024/05/8bitdo-keyboard-m-ibm-model-m-inspired",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/8bitdo-keyboard-m-350x200.jpg",
+          "title": "IBM&#8217;s Iconic Model-M Keyboard Reimagined by 8BitDo",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-28T21:48:00",
+          "id": 283303,
+          "link": "https://www.omgubuntu.co.uk/2024/05/firefox-126-bug-fix-drag-and-drop-linux",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2022/06/firefox-logo-on-an-orange-background-350x200.jpg",
+          "title": "Mozilla Firefox 126.0.1 Fixes Drag and Drop Quirk on Linux",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-28T19:35:16",
+          "id": 283253,
+          "link": "https://www.omgubuntu.co.uk/2024/05/ubuntu-24-04-risc-v-computer-milkv",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/milkv-mars-ubuntu-24.04-350x200.jpg",
+          "title": "Ubuntu 24.04 Arrives on Mars – the Milk-V Mars (RISC-V Computer)",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-27T22:23:00",
+          "id": 283168,
+          "link": "https://www.omgubuntu.co.uk/2024/05/day-progress-time-tracking-gnome-extension",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/day-progress-gnome-shell-extnsion-350x200.jpg",
+          "title": "Track Time Differently with &#8216;Day Progress&#8217; for GNOME Shell",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-26T17:21:11",
+          "id": 283136,
+          "link": "https://www.omgubuntu.co.uk/2024/05/cascadia-code-font-update-large-type-pieces",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/cascadia-code-update-350x200.jpg",
+          "title": "Microsoft Gives its Open-Source Developer Font Major Update",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-24T14:07:37",
+          "id": 283080,
+          "link": "https://www.omgubuntu.co.uk/2024/05/rufus-usb-ubuntu-24-04-persistence",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2016/04/usb-live-boot-350x200.jpg",
+          "title": "Rufus Fixes Creation of Persistent Ubuntu 24.04 USBs",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-23T15:02:35",
+          "id": 283052,
+          "link": "https://www.omgubuntu.co.uk/2024/05/snap-store-website-new-look",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2023/05/ubuntu-logo-and-the-snapcraft-logo-tiled-350x200.jpg",
+          "title": "Snap Store Website Redesign Goes Live – And It Looks Good",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-22T16:51:26",
+          "id": 282972,
+          "link": "https://www.omgubuntu.co.uk/2024/05/ubuntu-24-04-upgrades-officially-open",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/noble-upgrade-tile-350x200.jpg",
+          "title": "Ubuntu 24.04 LTS Upgrades Now Officially Enabled",
+          "unread": true,
+        },
+        {
+          "date": "2024-05-22T15:45:05",
+          "id": 282962,
+          "link": "https://www.omgubuntu.co.uk/2024/05/mozilla-shares-firefox-roadmap",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2019/11/firefox-1-350x200.jpg",
+          "title": "Mozilla Reveals New Features Coming to Firefox",
+          "unread": true,
+        },
+      ],
+    },
+  ],
+]
+`;
+
+exports[`articles fetchArticles should handle missing thumbnails 1`] = `
+[
+  [
+    {
+      "articles": [
+        {
+          "date": "2024-06-03T22:03:20",
+          "id": 283465,
+          "link": "https://www.omgubuntu.co.uk/2024/06/linux-mint-will-hide-unverified-flatpaks",
+          "thumbnail": null,
+          "title": "Linux Mint Will Hide Unverified Flatpaks in Software Manager",
+          "unread": true,
+        },
+      ],
+    },
+  ],
+]
+`;
+
+exports[`articles fetchArticles should merge new articles with existing articles 1`] = `
+[
+  [
+    {
+      "articles": [
+        {
+          "date": "2024-06-03T22:03:20",
+          "id": 283465,
+          "link": "https://www.omgubuntu.co.uk/2024/06/linux-mint-will-hide-unverified-flatpaks",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/02/linux-mint-22-tile-350x200.jpg",
+          "title": "Linux Mint Will Hide Unverified Flatpaks in Software Manager",
+          "unread": true,
+        },
+        {
+          "date": "2024-06-02T18:00:00",
+          "id": 283423,
+          "link": "https://www.omgubuntu.co.uk/2024/06/convert-text-documents-easily-ubuntu",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/06/document-conversion-350x200.jpg",
+          "title": "New App Makes Converting Text Documents on Ubuntu Easier",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-30T21:22:00",
+          "id": 283383,
+          "link": "https://www.omgubuntu.co.uk/2024/05/wsl-gui-settings-apps-coming-soon",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/windows-tux-thumbnail-350x200.jpg",
+          "title": "Microsoft Announce WSL Updates, Including New Settings App",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-29T22:20:00",
+          "id": 283328,
+          "link": "https://www.omgubuntu.co.uk/2024/05/8bitdo-keyboard-m-ibm-model-m-inspired",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/8bitdo-keyboard-m-350x200.jpg",
+          "title": "IBM&#8217;s Iconic Model-M Keyboard Reimagined by 8BitDo",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-28T21:48:00",
+          "id": 283303,
+          "link": "https://www.omgubuntu.co.uk/2024/05/firefox-126-bug-fix-drag-and-drop-linux",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2022/06/firefox-logo-on-an-orange-background-350x200.jpg",
+          "title": "Mozilla Firefox 126.0.1 Fixes Drag and Drop Quirk on Linux",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-28T19:35:16",
+          "id": 283253,
+          "link": "https://www.omgubuntu.co.uk/2024/05/ubuntu-24-04-risc-v-computer-milkv",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/milkv-mars-ubuntu-24.04-350x200.jpg",
+          "title": "Ubuntu 24.04 Arrives on Mars – the Milk-V Mars (RISC-V Computer)",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-27T22:23:00",
+          "id": 283168,
+          "link": "https://www.omgubuntu.co.uk/2024/05/day-progress-time-tracking-gnome-extension",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/day-progress-gnome-shell-extnsion-350x200.jpg",
+          "title": "Track Time Differently with &#8216;Day Progress&#8217; for GNOME Shell",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-26T17:21:11",
+          "id": 283136,
+          "link": "https://www.omgubuntu.co.uk/2024/05/cascadia-code-font-update-large-type-pieces",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/cascadia-code-update-350x200.jpg",
+          "title": "Microsoft Gives its Open-Source Developer Font Major Update",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-24T14:07:37",
+          "id": 283080,
+          "link": "https://www.omgubuntu.co.uk/2024/05/rufus-usb-ubuntu-24-04-persistence",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2016/04/usb-live-boot-350x200.jpg",
+          "title": "Rufus Fixes Creation of Persistent Ubuntu 24.04 USBs",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-23T15:02:35",
+          "id": 283052,
+          "link": "https://www.omgubuntu.co.uk/2024/05/snap-store-website-new-look",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2023/05/ubuntu-logo-and-the-snapcraft-logo-tiled-350x200.jpg",
+          "title": "Snap Store Website Redesign Goes Live – And It Looks Good",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-22T16:51:26",
+          "id": 282972,
+          "link": "https://www.omgubuntu.co.uk/2024/05/ubuntu-24-04-upgrades-officially-open",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/05/noble-upgrade-tile-350x200.jpg",
+          "title": "Ubuntu 24.04 LTS Upgrades Now Officially Enabled",
+          "unread": false,
+        },
+        {
+          "date": "2024-05-22T15:45:05",
+          "id": 282962,
+          "link": "https://www.omgubuntu.co.uk/2024/05/mozilla-shares-firefox-roadmap",
+          "thumbnail": "https://www.omgubuntu.co.uk/wp-content/uploads/2019/11/firefox-1-350x200.jpg",
+          "title": "Mozilla Reveals New Features Coming to Firefox",
+          "unread": false,
+        },
+      ],
+    },
+  ],
+]
+`;

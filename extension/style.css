@@ -1,0 +1,132 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later */
+/* SPDX-FileCopyrightText: Copyright (c) 2024 Sam Tran */
+:root {
+  --accent-color: #f15d22;
+  --font-stack: Arial, "Helvetica Neue", Helvetica, sans-serif;;
+}
+
+.link {
+  background: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.db {
+  display: block;
+}
+
+html {
+  font-size: 12px;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  width: 448px;
+  font-family: var(--font-stack);
+}
+
+header {
+  height: 50px;
+  z-index: 1;
+  padding: 0 12px;
+  background: linear-gradient(147deg, #ff544f 0%, #fad126 100%);
+  border-bottom: 1px solid #32323238;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.refresh {
+  position: absolute;
+  right: 6px;
+  padding: 6px;
+}
+
+.spin {
+  animation: rotate 0.5s infinite linear;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+section {
+  min-height: 50px;
+  margin-bottom: 38px;
+}
+
+.article {
+  position: relative;
+  border-bottom: 1px solid #eeeeee90;
+  padding: 6px 18px;
+  transition: ease 250ms;
+}
+
+.article a {
+  display: flex;
+  gap: 15px;
+  color: #333;
+  text-decoration: none;
+  align-items: center;
+  transition: ease 250ms;
+}
+
+.article a:hover {
+  color: var(--accent-color);
+}
+
+.article h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+}
+
+.article:hover {
+  background: #efefef;
+}
+
+.unread {
+  position: absolute;
+  top: 0;
+  right: 4px;
+  z-index: 1;
+}
+
+.thumbnail {
+  height: 57px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+
+footer {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.25) 30%, white 50%, white);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 18px 6px 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  z-index: 2;
+}
+
+footer button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-decoration: none;
+}
